@@ -84,3 +84,48 @@ Fitbit sensor (GPS, Heartrate, Barometer, Gyroscope, Accelerometer) monitoring a
         }
         
 
+###### Stupid things : alarm disconnection with server
+
+I am new to javascript with this project.
+To alarm the disconnection with server, I add the simple 'for' script below.
+
+```javascript
+setInterval(function(){
+  let ZeroCheck = 1;
+  let FirstCheck = 1;
+  let SecondCheck = 1;
+  let ThirdCheck = 1;
+  let ForthCheck = 1;
+  // 0
+  if (LabelisSend.text == "Firebase: not Connected"){
+    ZeroCheck = 0;
+  }
+  // 2000
+  setTimeout(function(){
+    if (LabelisSend.text == "Firebase: not Connected"){
+      FirstCheck = 0;
+    }
+  },2100)
+  // 4000
+  setTimeout(function(){
+    if (LabelisSend.text == "Firebase: not Connected"){
+      SecondCheck = 0;
+    }
+  },4100)
+  // 6000
+  setTimeout(function(){
+    if (LabelisSend.text == "Firebase: not Connected"){
+      ThirdCheck = 0;
+    }
+  },6100)
+  // 8000 and check
+  setTimeout(function(){
+    if (LabelisSend.text == "Firebase: not Connected"){
+      ForthCheck = 0;
+    }
+    if (ZeroCheck + FirstCheck + SecondCheck + ThirdCheck + ForthCheck== 0){
+      vibration.start("ring");
+    }
+  },8100)
+},10000)
+```
