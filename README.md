@@ -17,7 +17,16 @@
 
 <img src="https://user-images.githubusercontent.com/96426723/146898105-aecf44a6-73b3-40ea-b902-9b2ca99c3c40.png" width="30%">
 
-- json Structure example
+
+### Data Structure example
+
+the type of data collected from Fitbit sense is 'string'
+
+In order to collect as much data as possible, 'frequency' and 'send interval' were set as follows.
+
+- Send interval : 6 seconds
+
+- Frequency: 4Hz (acclerometer, gyroscope) , 1Hz (heartrate and barometer)
 
 ```json
 
