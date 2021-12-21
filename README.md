@@ -1,5 +1,5 @@
 # Fitbit-data-collect
-Fitbit sensor application for collecting data (GPS, Heartrate, Barometer, Gyroscope, Accelerometer)
+- Fitbit sensor application for collecting data (GPS, Heartrate, Barometer, Gyroscope, Accelerometer)
 
 - fetch data to HTTPS json database (ex.firebase) automatically
 
@@ -11,9 +11,9 @@ Fitbit sensor application for collecting data (GPS, Heartrate, Barometer, Gyrosc
 
 
 ### Configuration setting
-> dbURL: example>> https://xxxxxxxx-default-rtdb.firebaseio.com
-> 
-> user name: example>>JeoungJaewon
+- dbURL: example>> https://xxxxxxxx-default-rtdb.firebaseio.com
+
+- user name: example>>JeoungJaewon
 
 <img src="https://user-images.githubusercontent.com/96426723/146898105-aecf44a6-73b3-40ea-b902-9b2ca99c3c40.png" width="30%">
 
