@@ -1,0 +1,22 @@
+<svg>
+  <use id="container" >
+    <!-- View and POST Sensors viewport -->
+    <use>
+        <text  x="35" y="30" class="header-text-yellow">HeartRate</text>
+        <text id="LabelHeartRate" x="35" y="50" class="metric-text" />
+        <text  x="35" y="70" class="header-text-yellow">Accelerometer</text>
+        <text id="LabelAccelerometerx" x="35" y="90" class="metric-text" />
+        <text id="LabelAccelerometery" x="35" y="110" class="metric-text" />
+        <text id="LabelAccelerometerz" x="35" y="130" class="metric-text" />
+        <text  x="35" y="150" class="header-text-yellow">Gyroscope</text>
+        <text id="LabelGyroscopex" x="35" y="170" class="metric-text" />
+        <text id="LabelGyroscopey" x="35" y="190" class="metric-text" />
+        <text id="LabelGyroscopez" x="35" y="210" class="metric-text" />
+        <text  x="35" y="230" class="header-text-yellow">Barometer(Pa)</text>
+        <text id="LabelBarometer" x="35" y="250" class="metric-text" />
+        <text id="isSend" x="35" y="285" class="isSendFalse" />
+    </use>
+
+
+  </use>
+</svg>

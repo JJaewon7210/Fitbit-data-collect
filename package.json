@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~5.0.0"
+  },
+  "fitbit": {
+    "appUUID": "56ee59c0-769a-4bfc-a76f-fed6133f393d",
+    "appType": "app",
+    "appDisplayName": "Sens_demo",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#009688",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_location",
+      "access_internet"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Sens_demo"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

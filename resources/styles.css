@@ -1,0 +1,51 @@
+.background {
+  viewport-fill: black;
+}
+
+/* Labels */
+
+.metric-text {
+  font-size: 20;
+  font-family: Colfax-Medium;
+  text-length: 32;
+  fill: white;
+}
+
+.header-text-orange {
+  font-size: 20;
+  font-family: Colfax-Medium;
+  text-length: 32;
+  fill: orange;
+}
+
+.header-text-white {
+  font-size: 20;
+  font-family: Colfax-Medium;
+  text-length: 32;
+  fill: white;
+}
+.header-text-yellow {
+  font-size: 20;
+  font-family: Colfax-Medium;
+  text-length: 32;
+  fill: yellow;
+}
+.isSend{
+  font-size: 25;
+  font-family: Colfax-Medium;
+  text-length: 32;
+  fill: green;
+}
+.isSendFalse {
+  font-size: 25;
+  font-family: Colfax-Medium;
+  text-length: 32;
+  fill: red;
+}
+.info
+{
+  font-size: 1;
+  font-family: Colfax-Medium;
+  text-length: 99;
+  fill: white;
+}
