@@ -67,7 +67,7 @@ In order to collect as much data as possible, 'frequency' and 'send interval' we
 }
 ```
 
-### Stupid things : alarm disconnection with server
+### Stupid things :  disconnection alarm
 
 I am new to javascript with this project.
 To alarm the disconnection with server, I add the simple 'for' script below.
