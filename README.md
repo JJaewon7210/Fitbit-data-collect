@@ -7,11 +7,11 @@ Fitbit sensor (GPS, Heartrate, Barometer, Gyroscope, Accelerometer) monitoring a
 
 - Downlaod: https://gallery.fitbit.com/details/56ee59c0-769a-4bfc-a76f-fed6133f393d
 
-- Configuration setting
+###### Configuration setting
 
-- dbURL: example>> https://xxxxxxxx-default-rtdb.firebaseio.com
+ dbURL: example>> https://xxxxxxxx-default-rtdb.firebaseio.com
 
-- user name: example>>JeoungJaewon
+ user name: example>>JeoungJaewon
 
 <img src="https://user-images.githubusercontent.com/96426723/146898105-aecf44a6-73b3-40ea-b902-9b2ca99c3c40.png" width="40%">
 
