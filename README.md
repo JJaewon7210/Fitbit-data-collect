@@ -1,5 +1,5 @@
 # Fitbit-data-collect
-Fitbit sensor data (GPS, Heartrate, Barometer, Gyroscope, Accelerometer) collecting app
+Fitbit sensor application for collecting data (GPS, Heartrate, Barometer, Gyroscope, Accelerometer)
 
 - fetch data to HTTPS json database (ex.firebase) automatically
 
