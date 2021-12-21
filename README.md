@@ -84,10 +84,17 @@ Fitbit sensor (GPS, Heartrate, Barometer, Gyroscope, Accelerometer) monitoring a
         }
         
 
-###### Stupid things : alarm disconnection with server
+### Stupid things : alarm disconnection with server
 
 I am new to javascript with this project.
 To alarm the disconnection with server, I add the simple 'for' script below.
+
+It check the disconnection with server every 10 seconds. 
+
+If the watch vibrates when using this app, it means you have to check follow things
+- (i) internet connection, 
+- (ii) pairing with mobile phone and fitibit 
+- (iii) correct dbURL in Configuration setting
 
 ```javascript
 setInterval(function(){
