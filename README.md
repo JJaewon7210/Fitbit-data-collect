@@ -7,13 +7,12 @@ Fitbit sensor (GPS, Heartrate, Barometer, Gyroscope, Accelerometer) monitoring a
 
 - Downlaod: https://gallery.fitbit.com/details/56ee59c0-769a-4bfc-a76f-fed6133f393d
 
-###### Configuration setting
 
- dbURL: example>> https://xxxxxxxx-default-rtdb.firebaseio.com
+### Configuration setting
+> dbURL: example>> https://xxxxxxxx-default-rtdb.firebaseio.com
+> user name: example>>JeoungJaewon
 
- user name: example>>JeoungJaewon
-
-<img src="https://user-images.githubusercontent.com/96426723/146898105-aecf44a6-73b3-40ea-b902-9b2ca99c3c40.png" width="40%">
+<img src="https://user-images.githubusercontent.com/96426723/146898105-aecf44a6-73b3-40ea-b902-9b2ca99c3c40.png" width="30%">
 
 - json Structure example
 
@@ -48,39 +47,7 @@ Fitbit sensor (GPS, Heartrate, Barometer, Gyroscope, Accelerometer) monitoring a
                 "heartrate" : "71 71 72 72 73 73 "
 
               }
-
-            },
-
-            "1637559550674" : {
-
-              "latitude" : 37.56227040077878,
-
-              "longitude" : 126.9364415420644,
-
-              "timestamp" : "2021. 11. 22. 오후 2:39:10",
-
-              "value" : {
-
-                "accelerometer_x" : "0.93 0.84 1.01 1.03 0.90 0.97 0.94 0.92 0.85 0.68 0.72 -0.20 1.61 5.76 4.03 3.77 5.57 6.58 1.32 0.08 1.03 0.38 0.84 1.89 ",
-
-                "accelerometer_y" : "2.66 2.77 2.79 2.75 2.85 2.71 2.67 2.69 2.77 2.94 3.01 4.79 2.84 0.61 0.98 1.78 0.30 8.73 10.29 11.29 8.11 1.59 16.02 6.56 ",
-
-                "accelerometer_z" : "9.46 9.43 9.52 9.33 9.33 9.40 9.57 9.48 9.42 9.50 9.68 8.21 6.96 8.93 8.33 8.29 8.53 4.08 -0.52 -4.13 2.01 10.18 3.76 5.90 ",
-
-                "barometer" : "101124 101124 101132 101127 101125 101131 ",
-
-                "gyroscope_x" : "-0.02 0.03 0.01 0.02 0.00 -0.03 -0.01 -0.01 0.04 0.16 0.03 0.56 -0.23 0.28 -0.08 -0.49 1.15 2.80 -4.40 0.15 -3.31 1.81 0.94 ",
-
-                "gyroscope_y" : "-0.04 0.01 -0.03 0.06 0.07 -0.03 -0.04 -0.05 0.03 -0.04 -0.15 -0.38 0.22 0.55 0.65 -1.59 -3.38 -5.63 1.32 -1.35 -0.06 -0.57 -0.40 ",
-
-                "gyroscope_z" : "-0.02 0.01 -0.00 0.02 0.01 -0.01 -0.01 -0.01 -0.01 -0.03 0.15 -0.09 -0.39 0.32 -0.47 -1.31 -2.00 -3.94 -1.49 0.74 0.76 -1.20 -0.29 ",
-
-                "heartrate" : "73 75 75 76 77 "
-
-              }
-
             }
-
         }
         
 
