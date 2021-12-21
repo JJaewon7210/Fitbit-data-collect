@@ -72,7 +72,7 @@ In order to collect as much data as possible, 'frequency' and 'send interval' we
 I am new to javascript with this project.
 To alarm the disconnection with server, I add the simple 'for' script below.
 
-It check the disconnection with server every 10 seconds. 
+It checks the disconnection with server every 10 seconds. 
 
 If the watch vibrates when using this app, it means you have to check follow things
 - (i) internet connection, 
