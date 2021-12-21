@@ -28,9 +28,12 @@ In order to collect as much data as possible, 'frequency' and 'send interval' we
 
 - Frequency: 4Hz (acclerometer, gyroscope) , 1Hz (heartrate and barometer)
 
+###### sample data structure
+
 ```json
 
-"name":{
+"JeoungJaewon":{
+
   "2021_10_22" : {
 
     "1637559542006" : { #time
